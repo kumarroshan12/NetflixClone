@@ -1,0 +1,96 @@
+.logo{
+    width: 160px;
+    height: 50px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.root{
+    background-size: cover;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url("bgimg1.jpg");
+    height: 98vh;
+}
+body{
+    margin: 0;
+}
+    
+    
+    
+
+.sign-in{
+    background-color: rgb(218, 25, 25);
+    color: white;
+    padding: 9px 15px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10%;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5vw;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+.title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-bottom: 0;
+}
+.title2{
+    color: white;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.title3{
+    color: white;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+.email-cont{
+    display: flex;
+    justify-content: center;
+}
+#ename{
+    width: 350px;
+    height: 55px;
+    padding:0 10px 0 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid;
+    border-color: rgb(190, 185, 185);
+    border-width: 1px;
+    color: rgb(176, 170, 170);
+    
+}
+.gets{
+    width: 200px;
+    height: 58px;
+    font-size: 1.5rem;
+    background-color: rgb(245, 12, 12);
+    color: white;
+    font-weight: 580;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    border: none;
+    margin-left: 0.5rem;
+    padding: 0 0 0 8px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+.gets:hover{
+    background-color: rgb(255, 41, 41);
+}
